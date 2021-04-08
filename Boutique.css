@@ -1,0 +1,389 @@
+.nomproduit{
+    text-align: center;
+    margin-left: 8%;
+    display: inline-block;
+    margin-top: 5%;
+    border: solid;
+    border-color:grey;
+    margin-right: 5%;
+}
+
+.nomproduit:hover{
+    border-color: black; 
+    transition: .2s ease-in-out; 
+}
+
+.nomcatégorie{
+    transition: .3s ease-in-out;
+    opacity: 1;
+    margin-left: 8%;
+    display: inline-block;
+    margin-top: 5%;
+    border: solid;
+    border-color:grey;
+    margin-right: 2%;
+    height: 280px;
+    width: 330px;
+}
+
+.nomcatégorie:hover{
+    opacity: .5;
+    border-color:black;
+    transition: .2s ease-in-out;
+}
+
+.description{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.produit{
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    color: black;
+    margin-top: 5px;
+
+}
+.produit:hover{
+     transition: .1s ease-in-out;
+    color: #4682B4;
+}
+
+#Bloc{
+    color: red;
+    border: thick double #32a1ce;
+    padding: 10px;
+    margin-top: 90%;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+}
+
+    
+.blockboutique {
+    width: 100%;
+    height: auto;
+    background-color: rgb(222, 233, 236);
+    padding-bottom: 5%;
+    display: inline-block;
+    margin-top:-5px;
+}
+
+.prix{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+
+}
+      
+.prix:hover{
+     transition: .3s ease-in-out;
+    color: #4682B4;
+}
+
+.titre{
+    font-size: 30px;
+    margin-left: 80px;
+}
+.fiche{
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.boutonmenuprincipal {
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top:10px;
+    font-size: 30px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#LogoMenu{
+    width: 100%;
+    height: auto;
+}
+#LogoCompte{
+    width: 100%;
+    height: auto;
+}
+#LogoPanier{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* Bloc menu déroulant */
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    top: 25%;
+    width: 60px;
+    height: auto;
+    z-index: 7;
+    float: right;
+    background-color: rgb(222, 233, 236);
+    border-radius: 10px;
+}
+
+/*Endroit ou les sous menus sont affichés*/
+
+
+.dropdown-child {
+    display: none;
+    background-color: rgb(222, 233, 236);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    border-radius: 10px;
+}
+/* écriture */
+.dropdown-child a {
+    color:black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+    border-radius: 10px;
+}
+
+.trait{
+    border-top:solid;
+    border-color: black;
+    border-top-width: 2px;
+    margin-top: 5%;
+}
+.type{
+    text-align: center;
+    font-size: 40px;
+    margin-right: -10px;
+    margin-bottom: -200px;
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;color:#fff;
+ 
+}
+
+.titre2{
+    font-size: 32px;
+    text-align: left;
+}
+
+.description2{
+    
+    text-align: center;
+    display: inline-block;
+    border:solid;
+    border-width: 3px;
+    border-color: grey;
+    margin-left: 21%;
+    margin-top: 10%;
+    margin-right: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.description2:hover{
+    border-color: black;
+    margin-bottom: 360px;
+}
+
+.descomplete{
+    position: absolute;
+    font-size: 15px;
+    width: 370px;
+    display: none;
+    margin-left: -200px;
+    margin-right: 20%;
+  
+}
+.descomplete:hover{
+  display: none;
+}
+
+.description2:hover .descomplete{
+    transition: .4s ease-in-out;
+    display: inline;
+    border:solid;
+    border-color: black;
+    border-width: 3px;
+    width: 400px;
+    height: auto;
+}
+
+.policedesc{
+    font-size: 20px;
+    margin-top:5px;
+    text-align: center;
+}
+.bouton{
+  width:270px;
+  background-color: rgb(93, 166, 225);
+  margin:10px;
+  border:solid;
+  border-radius:10px;
+  border-width:1px;
+  height: 60px;
+}
+.groupe{
+    width: 400px;
+    float: left;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+.puces{
+  font-size: 20px;
+ text-align: left;
+}
+
+img#vetement{
+    float: left;
+    margin-bottom: 10px;
+    display:none;
+}
+.color2:hover #vetement{
+  display:inline;
+}
+.color2:hover #raquette{
+  display:none;
+}
+.color2{
+    text-align: center;
+}
+
+.nouveau_prix{
+    text-align: center;
+    font-size: 5px;
+    font-size: 18px;
+    text-shadow:0 0 30px 
+    rgb(190, 39, 67),5px 9px 5px 
+    rgba(0, 0, 0, 0.5), 0 0 150px 
+    #EC637B;
+    color:rgb(216, 36, 75);
+
+}
+.nouveau_prix:hover{
+
+    font-size: 22px;
+    transition: 0.2s ease-in-out;
+    text-shadow:0 0 30px 
+    rgb(230, 28, 65),5px 9px 5px 
+    rgba(0, 0, 0, 0.5), 0 0 150px 
+    #EC637B;
+    color:rgb(230, 28, 65);
+}
+
+.prix_barrer{
+  text-decoration: line-through;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+}
+
+.DefNouv{
+  background-color: rgb(99, 192, 221);
+  color: black;
+  position: relative;
+  top: -264px;
+  width: 90px;
+  left: 170px;
+}
+
+/*
+.marquee{
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+p.marquee {
+  animation: marquee 2s linear infinite;
+}
+
+*/
+
+marquee{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+
+/*Bouton paypal*/
+/* https://www.notuxedo.com/creer-bouton-paypal-paiement/ */
+
+input, textarea {
+  width: 249px;
+}
+ 
+textarea {
+  height: 100px;
+}
+ 
+select {
+  width: 254px;
+}
+ 
+input[type=checkbox] {
+  width: 10px;
+}
+ 
+input[type=submit] {
+  width: 150px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+
+img#panier2{
+  position: relative;
+  top: 5px;
+}
+
+
+
+img.fondRaquette{
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+@keyframes marquee {
+
+  /*Change d'ou part le texte, côté droite*/
+  0% {
+    transform: translateX(20%)
+  }
+
+  /*Change d'ou part le texte, côté gauche*/
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+img.panier2{
+  float: right;
+  margin-right: 25px;
+  position: relative;
+  top: 5px;
+}
+

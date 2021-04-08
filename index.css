@@ -1,0 +1,479 @@
+/* Photo d'acceuil */
+#Accueil{
+    margin-top: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+}
+
+/* Image de fond (volant) */
+.badminton {
+    background-image: url(Images/512.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 5%;
+}
+
+
+
+
+
+/* Partie "A propos" */
+#Propos{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+}
+
+#logo{
+    width: 90%;
+    height: auto;
+    position: relative;
+    top: 80px;
+}
+
+.gauche {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.droite {
+    width: 66%;
+    height: 100%;
+    float: right;
+    background-color: rgb(222, 233, 236);
+    padding: 2%;
+    display: block;
+}
+
+
+
+
+/* Partie Entraîneurs */
+#Entrainement{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: -80px;
+}
+
+
+@media(min-width: 874px){
+  
+  /* Police pour le nom des joueurs */
+
+  .Joueurs{
+      font-size: 40px;
+      color: black;
+      text-align: center;
+      margin-bottom:0; 
+  }
+
+  /* Police pour leurs rangs*/
+  .Rang{
+      font-size: 20px;
+      color: rgb(92, 92, 92);
+      text-align: center;
+      margin-top: 0;
+  } 
+}
+
+@media(min-width: 654px) and (max-width: 873px){
+  
+  /* Police pour le nom des joueurs */
+
+  .Joueurs{
+      font-size: 30px;
+      color: black;
+      text-align: center;
+      margin-bottom:0; 
+  }
+
+  /* Police pour leurs rangs*/
+  .Rang{
+      font-size: 15px;
+      color: rgb(92, 92, 92);
+      text-align: center;
+      margin-top: 0;
+  } 
+
+}
+
+
+@media(min-width: 340px) and (max-width: 653px){
+  
+  /* Police pour le nom des joueurs */
+
+  .Joueurs{
+      font-size: 20px;
+      color: black;
+      text-align: center;
+      margin-bottom:0; 
+  }
+
+  /* Police pour leurs rangs*/
+  .Rang{
+      font-size: 11px;
+      color: rgb(92, 92, 92);
+      text-align: center;
+      margin-top: 0;
+  } 
+  
+}
+
+
+
+
+/* Mise en page des colonnes */
+.colonne{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.c{
+    width: 75%;
+    height: auto;
+}
+
+
+
+
+/* Entraineur choix formule */
+
+/* Ancre stage */
+#Stage{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: -80px;
+}
+
+
+.table{
+    margin: 0px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.price{
+    margin-top: 5px;
+    margin-right: 50px;
+    padding: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    width: 400px;
+}
+.price .header h1{
+    margin-top: -15px;
+}
+.price .header h1 .value{
+    font-family: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+.price .header h1 .month{
+    font-size: 15px;
+    color: rgb(163, 161, 161);
+}
+.price .header p{
+    margin-top: -8px;
+    color: rgb(99, 98, 98);
+}
+.price .body{
+    margin-top: 40px;
+}
+.price p{
+    font-size: 18px;
+}
+.price .body i{
+    color: rgb(131, 130, 130);
+    margin-right: 10px;
+}
+.price .footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.price .footer button{ 
+    background-color: #fff;
+    border: 1px solid rgb(51, 174, 223);
+    padding: 1em;
+    outline: none;
+    cursor: pointer;
+    width: 90%;
+    border-radius: 10px;
+    color: rgb(51, 174, 223);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.price .footer button:hover{ 
+    background-color: rgb(51, 174, 223);
+    border: 1px solid black;
+    padding: 1em;
+    outline: none;
+    cursor: pointer;
+    width: 90%;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/*Icones violettes*/
+.icons:before{
+  content: "";
+  display: block;
+  background: url("Images/canvas.png") no-repeat;
+  background-size: cover;
+  width: 22px;
+  height: 20px;
+  float: left;
+  margin: 0 6px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* Ancre Boutique */
+#BoutiqueAccueil{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: -80px;
+}
+
+
+
+
+
+
+.imageBadminton {
+    background-image: url(Images/Badminton.gif);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+/* 
+Taille d'écran : 
+1 = grand --> 4 = petit  
+*/
+
+/*Taille 1*/
+@media(min-width: 1474px){
+  
+  /* Carte */
+  .gauche3 {
+      width: 65%;
+      height: auto;
+      float: left;
+  }
+
+  .maps{
+    margin: 30px;
+    width:900px; 
+    height:550px;
+    border:0;
+  }
+
+  /* Formulaire */
+
+  .droite3 {
+      width: 35%;
+      height: auto;
+      float: left;
+  }
+
+  fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+
+/*Taille 2*/
+@media(min-width: 964px) and (max-width: 1473px){
+  /* Carte */
+  .gauche3 {
+      width: 100%;
+      height: auto;
+      float: left;
+      text-align: center;
+  }
+
+  .maps{
+    margin: 30px;
+    width:900px; 
+    height:550px;
+    border:0;
+  }
+
+  /* Formulaire */
+
+  .droite3 {
+      width: 100%;
+      height: auto;
+      float: left;
+  }
+
+  fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+
+/*Taille 3*/
+@media(min-width: 572px) and (max-width: 963px){
+  /* Carte */
+  .gauche3 {
+      width: 100%;
+      height: auto;
+      float: left;
+      text-align: center;
+  }
+
+  .maps{
+    margin: 30px;
+    width:500px; 
+    height:130px;
+    border:0;
+  }
+
+  /* Formulaire */
+
+  .droite3 {
+      width: 100%;
+      height: auto;
+      float: left;
+  }
+
+  fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+
+
+/*Taille 4*/
+@media(min-width: 340px) and (max-width: 571px){
+  /* Carte */
+  .gauche3 {
+      width: 100%;
+      height: auto;
+      float: left;
+      text-align: center;
+  }
+
+  .maps{
+    margin: 30px;
+    width:250px; 
+    height:100px;
+    border:0;
+  }
+
+  /* Formulaire */
+
+  .droite3 {
+      width: 100%;
+      height: auto;
+      float: left;
+  }
+
+  fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 250px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+/* Ancre Contacter */
+#NousContact{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: -80px;
+}
+
+
+/* Formulaire */
+ 
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+  color: rgb(44, 44, 117);
+  font-size: 21px;
+}
+ 
+label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+  font-size: 16px;
+}
+ 
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+ 
+input:focus {
+  background: #eaeaea;
+}
+ 
+input, textarea {
+  width: 249px;
+}
+ 
+textarea {
+  height: 100px;
+}
+ 
+select {
+  width: 254px;
+}
+ 
+input[type=checkbox] {
+  width: 10px;
+}
+ 
+input[type=submit] {
+  width: 150px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
